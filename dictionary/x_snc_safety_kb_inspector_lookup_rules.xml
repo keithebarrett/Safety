@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Inspector lookup rules" max_length="40" name="x_snc_safety_kb_inspector_lookup_rules" type="collection">
+        <element choice="1" choice_field="category" choice_table="x_snc_safety_kb_issues" dependent="category" dependent_on_field="category" label="Category" max_length="40" name="category" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Inspector" max_length="32" name="inspector" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="inspector"/>
+        </index>
+    </element>
+</database>

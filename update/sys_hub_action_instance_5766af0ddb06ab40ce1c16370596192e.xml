@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Issue approval">4c142b09db06ab40ce1c163705961967</flow>
+        <order>2.1</order>
+        <parent_ui_id>62f3a44c-44ec-42a4-ad1b-1f9cd6c7787f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:24</sys_created_on>
+        <sys_id>5766af0ddb06ab40ce1c16370596192e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_kb">97e23a01db42ab40ce1c1637059619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">97e23a01db42ab40ce1c1637059619ae</sys_scope>
+        <sys_update_name>sys_hub_action_instance_5766af0ddb06ab40ce1c16370596192e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:03:59</sys_updated_on>
+        <ui_id>93120bc0-6242-4f22-942b-352dcabafb67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5766af0ddb06ab40ce1c16370596192e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5766af0ddb06ab40ce1c16370596192e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:25</sys_created_on>
+        <sys_id>1366af0ddb06ab40ce1c163705961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:25</sys_updated_on>
+        <value>x_snc_safety_kb_issues</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5766af0ddb06ab40ce1c16370596192e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:25</sys_created_on>
+        <sys_id>5f66af0ddb06ab40ce1c16370596194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:25</sys_updated_on>
+        <value>state=3^approval=approved</value>
+        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5766af0ddb06ab40ce1c16370596192e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:37</sys_created_on>
+        <sys_id>6a76ef0ddb06ab40ce1c16370596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:37</sys_updated_on>
+        <value>x_snc_safety_kb_issues</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5766af0ddb06ab40ce1c16370596192e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:37</sys_created_on>
+        <sys_id>a676ef0ddb06ab40ce1c16370596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:37</sys_updated_on>
+        <value>state=3^approval=approved</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5766af0ddb06ab40ce1c16370596192e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5766af0ddb06ab40ce1c16370596192e</id>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:25</sys_created_on>
+        <sys_id>1b66af0ddb06ab40ce1c16370596194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5766af0ddb06ab40ce1c16370596192e</id>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:37</sys_created_on>
+        <sys_id>6276ef0ddb06ab40ce1c16370596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5766af0ddb06ab40ce1c16370596192e</id>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:25</sys_created_on>
+        <sys_id>5766af0ddb06ab40ce1c16370596194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5766af0ddb06ab40ce1c16370596192e</id>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:37</sys_created_on>
+        <sys_id>ae76ef0ddb06ab40ce1c163705961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5766af0ddb06ab40ce1c16370596192e</id>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:37</sys_created_on>
+        <sys_id>2676ef0ddb06ab40ce1c16370596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5766af0ddb06ab40ce1c16370596192e</id>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:25</sys_created_on>
+        <sys_id>db66af0ddb06ab40ce1c16370596194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>luke.wilson</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:02:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

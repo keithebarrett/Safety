@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2b66af0ddb06ab40ce1c163705961976</block>
+        <comment/>
+        <connected_to>62f3a44c-44ec-42a4-ad1b-1f9cd6c7787f</connected_to>
+        <display_text/>
+        <flow display_value="Issue approval">4c142b09db06ab40ce1c163705961967</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2018-11-27 00:02:25</sys_created_on>
+        <sys_id>af66af0ddb06ab40ce1c163705961977</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_kb">97e23a01db42ab40ce1c1637059619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">97e23a01db42ab40ce1c1637059619ae</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_af66af0ddb06ab40ce1c163705961977</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:04:00</sys_updated_on>
+        <ui_id>256123e1-2257-4eb0-84c8-444abc1f97c6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=af66af0ddb06ab40ce1c163705961977"/>
+</record_update>

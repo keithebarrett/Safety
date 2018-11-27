@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Issues" max_length="40" name="x_snc_safety_kb_issues" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Big" sequence="0" value="Big"/>
+                <element inactive_on_update="false" label="Small" sequence="1" value="Small"/>
+            </choice>
+        </element>
+        <element label="Inspector" max_length="32" name="inspector" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Project" max_length="40" name="project" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approvers" max_length="1024" name="u_glide_list_1" reference="sysapproval_approver" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_2" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approver" max_length="1024" name="u_glide_list_6" reference="sc_cat_item_app_user" type="glide_list"/>
+        <element label="Approvers" max_length="32" name="u_reference_3" reference="sysapproval_approver" type="reference"/>
+        <element attributes="base_start=true" default="m2m_document_user_approver" label="Approvers" max_length="80" name="u_table_name_4" type="table_name"/>
+    </element>
+</database>

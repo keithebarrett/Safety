@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="Inspector Lookup">cb6e1f81db06ab40ce1c1637059619c2</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_snc_safety_kb_inspector_lookup_rules</matcher_table>
+        <matcher_table_field>category</matcher_table_field>
+        <source_table>x_snc_safety_kb_issues</source_table>
+        <source_table_field>category</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 23:29:02</sys_created_on>
+        <sys_id>81be53c1db06ab40ce1c16370596196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_kb">97e23a01db42ab40ce1c1637059619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">97e23a01db42ab40ce1c1637059619ae</sys_scope>
+        <sys_update_name>dl_definition_rel_match_81be53c1db06ab40ce1c16370596196c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 23:29:02</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>
